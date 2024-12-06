@@ -4,8 +4,11 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                amarelo: '#E6C744',
-                cinza: '#C2C8DA'
+                amarelo: '#e6c744',
+                cinza: '#c2c8da'
+            },
+            screens: {
+                '3xl': '1920px'
             }
         },
     },
