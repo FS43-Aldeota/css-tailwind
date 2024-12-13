@@ -35,15 +35,62 @@
     <header class="pt-[35px] px-[100px]">
         <nav class="flex items-center justify-between">
             <img src="imgs/logo.png" alt="logo do shopping app">
-            <ul class="flex gap-[65px]">
-                <li><a href="" class="uppercase 3xl:text-[22px] hover:text-amarelo duration-200">Catalogue</a></li>
-                <li><a href="" class="uppercase 3xl:text-[22px] hover:text-amarelo duration-200">Fashion</a></li>
-                <li><a href="" class="uppercase 3xl:text-[22px] hover:text-amarelo duration-200">Favorite</a></li>
-                <li><a href="" class="uppercase 3xl:text-[22px] hover:text-amarelo duration-200">Lifestyle</a></li>
-                <li><a href="" class="uppercase 3xl:text-[22px] hover:text-amarelo duration-200">Sign up</a></li>
+            <ul class="bg-amarelo fixed w-8/12 h-screen top-0 left-0 hidden lg:bg-transparent lg:relative lg:w-auto lg:h-auto lg:flex lg:items-center lg:gap-[65px] *:uppercase *:duration-200">
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo">Catalogue</a></li>
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo">Fashion</a></li>
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo">Favorite</a></li>
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo">Lifestyle</a></li>
+                <li><a href="" class="3xl:text-[22px] hover:text-amarelo bg-black text-white leading-[62px] block px-[22px] rounded-md">Sign up</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section 
+            id="banners" 
+            class="px-3 pt-4 lg:px-[100px] lg:pt-[52px]"
+        >
+            <img 
+                src="imgs/banner.png" 
+                alt="mulher feliz"
+                class="w-full"
+            >
+        </section>
+
+        <section 
+            id="marcas"
+            class="bg-amarelo mt-4"
+        >
+            <div class="flex items-center overflow-x-hidden px-3 py-6 gap-4 lg:gap-0 lg:justify-between lg:px-[100px] lg:py-[50px]">
+                <img src="imgs/logo1.png" alt="logo 1" class="mix-blend-multiply h-[40px] lg:h-auto">
+                <img src="imgs/logo2.png" alt="logo 2" class="mix-blend-multiply h-[40px] lg:h-auto">
+                <img src="imgs/logo3.png" alt="logo 3" class="mix-blend-multiply h-[40px] lg:h-auto">
+                <img src="imgs/logo4.png" alt="logo 4" class="mix-blend-multiply h-[40px] lg:h-auto">
+                <img src="imgs/logo5.png" alt="logo 5" class="mix-blend-multiply h-[40px] lg:h-auto">
+                <img src="imgs/logo6.png" alt="logo 6" class="mix-blend-multiply h-[40px] lg:h-auto">
+            </div>
+        </section>
+
+        <section>
+
+        </section>
+        <section></section>
+        <section></section>
+
+        <a 
+            target="_blank" 
+            href="https://api.whatsapp.com/send?phone=5585987974616&text=quero%20comprar"
+            class="w-[60px] h-[60px] rounded-full bg-green-500 hover:bg-green-700 duration-200 fixed bottom-5 right-5 z-[2] flex items-center justify-center hover:scale-110">
+            <box-icon 
+            type='logo' 
+            name='whatsapp'
+            class="fill-white w-[40px] h-[40px]"
+            ></box-icon>
+        </a>
+        <div class="w-[60px] h-[60px] rounded-full bg-green-500 duration-200 fixed bottom-5 right-5 z-[1] animate-ping"></div>
+    </main>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 
 </html>
