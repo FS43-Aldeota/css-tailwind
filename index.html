@@ -59,7 +59,7 @@
 
         <section 
             id="marcas"
-            class="bg-amarelo mt-4"
+            class="bg-amarelo mt-4 lg:mt-[60px]"
         >
             <div class="flex items-center overflow-x-hidden px-3 py-6 gap-4 lg:gap-0 lg:justify-between lg:px-[100px] lg:py-[50px]">
                 <img src="imgs/logo1.png" alt="logo 1" class="mix-blend-multiply h-[40px] lg:h-auto">
@@ -71,11 +71,125 @@
             </div>
         </section>
 
-        <section>
+        <section
+            id="lancamentos"
+            class="overflow-hidden mt-4 lg:mt-[70px] px-4 lg:px-[100px]"
+        >
+            <h2 class="text-[32px] lg:text-[48px] uppercase font-black relative inline-block left-1/2 lg:left-0 -translate-x-1/2 lg:-translate-x-0">
+                new arrivals
+                <img 
+                    src="imgs/detalhe.png" 
+                    alt="detalhe de texto"
+                    class="w-[100px] lg:w-auto absolute top-1/2 -right-[10px] -z-[1]"
+                >
+            </h2>
+            <div class="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-[90px] mt-6 lg:mt-[90px]">
+                <div class="duration-200 hover:opacity-80"> <!-- card 1 -->
+                    <div class="relative">
+                        <img 
+                            src="imgs/modelo1.png" 
+                            alt="Hoodies & Sweetshirt"
+                            class="duration-200 hover:scale-105"
+                        > <!-- imagem do card -->
+                        <img 
+                            src="imgs/modelo2.png" 
+                            alt="Hoodies & Sweetshirt"
+                            class="absolute top-0 left-0 opacity-0 hover:opacity-100 duration-200 hover:scale-105"
+                        > <!-- imagem do card -->
 
+                    </div>
+                    <div class="flex items-center mt-6"> <!-- textos card -->
+                        <div class="flex-1">
+                            <h3 class="line-clamp-1 font-semibold lg:text-[26px]">Hoodies & Sweetshirt</h3>
+                            <p>Explore now</p>
+                        </div>
+                        <div>
+                            <box-icon name='arrow-back' rotate='180'></box-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="duration-200 hover:opacity-80"> <!-- card 2 -->
+                    <img 
+                        src="imgs/modelo2.png" 
+                        alt="Coats & Parkas"
+                        class="duration-200 hover:scale-105"
+                    > <!-- imagem do card -->
+                    <div class="flex items-center mt-6"> <!-- textos card -->
+                        <div class="flex-1">
+                            <h3 class="line-clamp-1 font-semibold lg:text-[26px]">Coats & Parkas</h3>
+                            <p>Explore now</p>
+                        </div>
+                        <div>
+                            <box-icon name='arrow-back' rotate='180'></box-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="duration-200 hover:opacity-80"> <!-- card 3 -->
+                    <img 
+                        src="imgs/modelo3.png" 
+                        alt="Tees & T-Shirt"
+                        class="duration-200 hover:scale-105"
+                    > <!-- imagem do card -->
+                    <div class="flex items-center mt-6"> <!-- textos card -->
+                        <div class="flex-1">
+                            <h3 class="line-clamp-1 font-semibold lg:text-[26px]">Tees & T-Shirt</h3>
+                            <p>Explore now</p>
+                        </div>
+                        <div>
+                            <box-icon name='arrow-back' rotate='180'></box-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section></section>
-        <section></section>
+
+        <section
+            id="favoritos"
+            class="overflow-hidden mt-4 lg:mt-[70px] px-4 lg:px-[100px]"
+        >
+            <h2 class="text-[32px] lg:text-[48px] uppercase font-black relative inline-block left-1/2 lg:left-0 -translate-x-1/2 lg:-translate-x-0">
+                Young's Favourite
+                <img 
+                    src="imgs/detalhe.png" 
+                    alt="detalhe de texto"
+                    class="w-[100px] lg:w-auto absolute top-1/2 -right-[10px] -z-[1]"
+                >
+            </h2>
+            <div class="grid grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-[45px] mt-6 lg:mt-[90px]">
+                <div class="duration-200 hover:opacity-80"> <!-- card 1 -->
+                    <img 
+                        src="imgs/modelo4.png" 
+                        alt="Hoodies & Sweetshirt"
+                        class="duration-200 hover:scale-105"
+                    > <!-- imagem do card -->
+                    <div class="flex items-center mt-6"> <!-- textos card -->
+                        <div class="flex-1">
+                            <h3 class="line-clamp-1 font-semibold lg:text-[26px]">Trending on instagram</h3>
+                            <p>Explore now</p>
+                        </div>
+                        <div>
+                            <box-icon name='arrow-back' rotate='180'></box-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="duration-200 hover:opacity-80"> <!-- card 2 -->
+                    <img 
+                        src="imgs/modelo5.png" 
+                        alt="Coats & Parkas"
+                        class="duration-200 hover:scale-105"
+                    > <!-- imagem do card -->
+                    <div class="flex items-center mt-6"> <!-- textos card -->
+                        <div class="flex-1">
+                            <h3 class="line-clamp-1 font-semibold lg:text-[26px]">All Under $40</h3>
+                            <p>Explore now</p>
+                        </div>
+                        <div>
+                            <box-icon name='arrow-back' rotate='180'></box-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <a 
             target="_blank" 
